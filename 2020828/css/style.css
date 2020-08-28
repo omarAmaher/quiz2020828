@@ -1,0 +1,95 @@
+@charset 'utf-8';
+/* Main Style */
+*{
+    box-sizing: border-box;
+}
+html , body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.7rem;
+    text-align: center;
+    color:#0a1f44;
+}
+.form-control:focus{
+    box-shadow: none;
+}
+img{
+    width: 250px;
+    height: 250px;
+}
+.red{
+    color: #e01705;
+}
+/*topbar*/
+.topbar{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    background-color:#0a1f44;
+    color:white;
+    height: 40px;
+}
+.randomtext{
+    font-size: 15px;
+}
+
+/* Navbar Style */
+.navbar .container{
+    display: flex;
+    justify-content: center;
+}
+.navbar-expand-md{
+    background-color: white !important;
+    color: black !important;
+}
+.navbar-expand-md .navbar-brand{
+    font-size: 10px;
+    font-weight: bold;
+}
+.navbar-nav .nav-item .nav-link{
+    padding: 0 12px;
+    color: #0a1f44;
+}
+.navbar-nav .nav-item .nav-link:hover{
+    padding: 0 12px;
+    color: #0a1f44;
+    font-weight: bold;
+}
+/* Banner Style*/
+.jumbotron{
+    background-color: white;
+    padding-top : 80px;
+    margin: 0px 100px;
+}
+.jumbotron .container{
+    justify-content: space-between;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+}
+.jumbotron.btn{
+    background-color:#e01705 ;
+    font-size: 15px;
+}
+/*Features*/
+
+
+/*cards*/
+/* Explore Style */
+#explore{
+    display: flex;
+    background-color: #F8F9FA;
+    flex-direction: row;
+}
+#explore h3{
+    margin: 25px 0;
+    font-weight: bold;
+    font-size: 2rem;
+}
+#explore .card .btn-outline-success{
+    border-color: #129C80;
+    color: #129C80;
+}
+#explore .card .btn-outline-success:hover{
+    color: #fff;
+    background: #129C80;
+}
